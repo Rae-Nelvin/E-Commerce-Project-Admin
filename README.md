@@ -96,10 +96,6 @@ npx prisma db push
 
 npm run dev
 
-npx prisma studio
-
-This will build the project and install it on your connected device or emulator.
-
 ## Contributing
 
 Since it's just a self-learning project, I don't expect any contributions to E-Commerce-Project-Admin-JS.
