@@ -1,38 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Commerce-Project-Admin-JS
 
-## Getting Started
+This full-stack e-commerce application is a versatile tool for aspiring entrepreneurs and a valuable addition to your developer portfolio. It showcases proficiency in modern web development technologies, offering separate interfaces for both store administration and customer browsing.
 
-First, run the development server:
+## Table of Contents
 
-```bash
+- [Features](#features)
+
+- [Installation](#installation)
+
+- [Prerequisites](#prerequisites)
+
+- [Clone the Repository](#clone-the-repository)
+
+- [Configuration](#configuration)
+
+- [Build and Run](#build-and-run)
+
+- [Contributing](#contributing)
+
+- [License](#license)
+
+## Features
+
+List the key features and functionalities of E-Commerce-Project-Admin-JS:
+
+- Manage Stores and Billboards: Create, edit, and manage stores alongside their unique billboards.
+
+- Product Management: Add, modify, and manage products with options for types and colors.
+
+- Sales Statistics: Gain valuable insights into product performance and customer behavior through comprehensive sales data.
+
+## Installation
+
+Follow these steps to install and run E-Commerce-Project-Admin-JS on your system.
+
+### Prerequisites
+
+Before you begin, ensure you have the following dependencies and tools installed:
+
+- [Node.js](https://nodejs.org/en)
+
+- [XAMPP](https://www.apachefriends.org/index.html)
+
+- [React](https://react.dev/)
+
+- [Next.js](https://nextjs.org/)
+
+- [Prisma](https://www.prisma.io/)
+
+- [Clerk](https://clerk.com/)
+
+- [DND-Kit](https://dndkit.com/)
+
+- [Tailwind CSS](https://tailwindcss.com/)
+
+### Clone the Repository
+
+1. Open your terminal or command prompt.
+
+2. Use the following command to clone the E-Commerce-Project-Admin-JS repository:
+
+git clone https://github.com/Rae-Nelvin/E-Commerce-Project-Admin-JS.git
+
+### Configuration
+
+1. Change your working directory to the cloned repository:
+
+cd E-Commerce-Project-Admin-JS
+
+2. Install dependencies by running:
+
+npm install
+
+3. Clone and create .env the .env.example by running:
+
+cp .env.example .env
+
+4. Register a Clerk Account and get the credentials for the authentication
+
+5. Run the XAMPP and create a database
+
+6. Fills out the required fields into the .env
+
+7. Run the initialize configuration for prisma by running:
+
+npx prisma generate
+
+8. Run the following command to migrate to prisma db:
+
+npx prisma db push
+
+### Build and Run
+
+1. To build and run the project, use the following command:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+npx prisma studio
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This will build the project and install it on your connected device or emulator.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+Since it's just a self-learning project, I don't expect any contributions to E-Commerce-Project-Admin-JS.
 
-To learn more about Next.js, take a look at the following resources:
+Thank you for choosing E-Commerce-Project-Admin-JS! If you encounter any issues or have suggestions for improvements, please don't hesitate to create an issue. We look forward to your feedback.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I don't own any license for the YouTube Crash Course Tutorial Form Builder. E-Commerce-Project-Admin-JS is licensed under the [MIT License](LICENSE). [https://github.com/antonioerdeljac/next13-ecommerce-admin?tab=MIT-1-ov-file]
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-https://www.youtube.com/watch?v=5miHyP6lExg (FINISH)
+Thank you for choosing E-Commerce-Project-Admin-JS! If you encounter any issues or have suggestions for improvements, please don't hesitate to [create an issue](https://github.com/AntonioErdeljac/next13-ecommerce-admin/issues). We look forward to your feedback and collaboration.
